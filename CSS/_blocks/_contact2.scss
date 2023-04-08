@@ -1,0 +1,52 @@
+.contact_section {
+    padding: 4rem 0 0 0;
+    h1 {
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+    form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: column;
+        gap: 33px;
+        flex-wrap: wrap;
+        .write {
+            margin-top: -11rem !important;
+            margin-left: 25px;
+            margin-bottom: 20px !important;
+            position: absolute;
+        }
+        #numn {
+            margin-left: 15rem;
+        }
+        label {
+            text-transform: uppercase;
+        }
+        #email {
+            margin-right: 15rem;
+        }
+        .form-control {
+            width: 343.17px;
+            height: 52.38px;
+        }
+        #floatingTextarea2 {
+            position: absolute;
+            margin-top: 1rem;
+        }
+        #submit {
+            text-transform: uppercase;
+            margin-top: 17rem;
+            width: 207px;
+            height: 53px;
+            background: linear-gradient(2.79deg, #F35F2F -13.68%, rgba(243, 95, 47, 0.75) 121.16%);
+            opacity: 0.85;
+            border-radius: 5px;
+            border: none;
+            margin-left: -15rem;
+            color: white;
+            margin-bottom: 20px;
+        }
+    }
+}
